@@ -1,17 +1,18 @@
-package creational.singleton.task2;
+package creational._1_singleton.task2;
 
-class FirstClient implements Client {
+class SecondClient implements Client {
 
   private FileLogger fileLogger = new FileLogger();
 
   @Override
   public void process() {
-    fileLogger.writeLog("First client start process...");
+    fileLogger.writeLog("Second client start process...|");
     for (int i = 0; i < 1_000_000_000; i++) {}
-    fileLogger.writeLog("First client end process...");
+    fileLogger.writeLog("Second client end process...");
   }
 
   FileLogger getFileLogger() {
     return fileLogger;
   }
+
 }

@@ -1,4 +1,4 @@
-package creational.singleton.task2;
+package creational._1_singleton.task2;
 
 class ClientRunner extends Thread {
 

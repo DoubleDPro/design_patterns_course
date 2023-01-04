@@ -1,4 +1,4 @@
-package creational.prototype.task2;
+package creational._2_prototype.task2;
 
 class Application {
 

@@ -1,4 +1,4 @@
-package creational.singleton.task2;
+package creational._1_singleton.task2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
